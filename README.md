@@ -16,7 +16,7 @@ package main
 
 import(
     "fmt"
-    "github.com/Justin-Randall/errors-with-stack"
+    "github.com/playscale/errors-with-stack"
 )
 
 func exampleErrorsWithStack() {
@@ -44,12 +44,12 @@ Stack Trace:
 goroutine 1 [running]:
 runtime/debug.Stack(0x0, 0x0, 0x44)
         /go/src/runtime/debug/stack.go:24 +0xa4
-github.com/Justin-Randall/errors-with-stack.New(0x4d4927, 0x27, 0xc0000c7f48, 0x4410de)
-        /User/github.com/Justin-Randall/errors-with-stack/errorswithstack.go:22 +0x7b
+github.com/playscale/errors-with-stack.New(0x4d4927, 0x27, 0xc0000c7f48, 0x4410de)
+        /User/github.com/playscale/errors-with-stack/errorswithstack.go:22 +0x7b
 main.exampleErrorsWithStack()
-        /User/github.com/Justin-Randall/errors-with-stack/example/main.go:10 +0x41
+        /User/github.com/playscale/errors-with-stack/example/main.go:10 +0x41
 main.main()
-        /User/github.com/Justin-Randall/errors-with-stack/example/main.go:20 +0x27
+        /User/github.com/playscale/errors-with-stack/example/main.go:20 +0x27
 
 This is just a plain old golang error
 ```
